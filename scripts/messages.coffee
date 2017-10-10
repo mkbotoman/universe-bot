@@ -5,16 +5,16 @@
 module.exports = (robot) ->
 
   robot.respond /universe/gim, (res) ->
-    res.send "> GitHub is great, and Training Day is greater!!"
+    res.send "GitHub is great, and Training Day is greater!!"
 
-  robot.respond /USERNAME/gim, (res) ->
-    res.send " > That person is awesome"
+  robot.respond /maureen/gim, (res) ->
+    res.send "That person is awesome"
 
   robot.respond /fruit/gim, (res) ->
-    res.send " > My favorites are apples and grapes."
+    res.send "I know you are but what am I?."
 
   robot.respond /movie/gim, (res) ->
-    res.send " > My favorite movie is The Wizard of Oz"
+    res.send "My favorite movie is The Wizard of Oz"
 
   robot.respond /lunch/gim, (res) ->
-    res.send " > I want a peanut butter and jelly sandwich for lunch today."
+    res.send "I want a peanut butter and jelly sandwich for lunch today."
